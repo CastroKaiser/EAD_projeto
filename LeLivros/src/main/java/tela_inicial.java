@@ -25,21 +25,228 @@ public class tela_inicial extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        jMenu3 = new javax.swing.JMenu();
+        jlbl_boasVindas = new javax.swing.JLabel();
+        lbl_1 = new javax.swing.JLabel();
+        lbl_2 = new javax.swing.JLabel();
+        lbl_3 = new javax.swing.JLabel();
+        lbl_4 = new javax.swing.JLabel();
+        lbl_5 = new javax.swing.JLabel();
+        lbl_6 = new javax.swing.JLabel();
+        lbl_7 = new javax.swing.JLabel();
+        lbl_8 = new javax.swing.JLabel();
+        lbl_9 = new javax.swing.JLabel();
+        lbl_10 = new javax.swing.JLabel();
+        lbl_11 = new javax.swing.JLabel();
+        lbl_12 = new javax.swing.JLabel();
+        lbl_13 = new javax.swing.JLabel();
+        lbl_14 = new javax.swing.JLabel();
+        jPanel1 = new javax.swing.JPanel();
+        jLabel2 = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
+        jLabel4 = new javax.swing.JLabel();
+        jLabel5 = new javax.swing.JLabel();
+        jLabel6 = new javax.swing.JLabel();
+        jLabel7 = new javax.swing.JLabel();
+        jLabel8 = new javax.swing.JLabel();
+        jLabel1 = new javax.swing.JLabel();
+        jrbtt_funcionario = new javax.swing.JRadioButton();
+        jrbtt_dependente = new javax.swing.JRadioButton();
+        jrbtt_livro = new javax.swing.JRadioButton();
+        jbtt_mostrar = new javax.swing.JButton();
+        jMenuBar1 = new javax.swing.JMenuBar();
+        jmn_cdtr_funcionario = new javax.swing.JMenu();
+        jm_cdtr_dependente = new javax.swing.JMenu();
+        jm_cdtr_livro = new javax.swing.JMenu();
+        jm_emprestimo = new javax.swing.JMenu();
+        jm_devolucao = new javax.swing.JMenu();
+        jm_visualizacao = new javax.swing.JMenu();
+        jmit_visuFuncionario = new javax.swing.JMenuItem();
+        jmit_visuDependente = new javax.swing.JMenuItem();
+        jmit_visuLivro = new javax.swing.JMenuItem();
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 400, Short.MAX_VALUE)
+        jMenu3.setText("jMenu3");
+
+        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jlbl_boasVindas.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
+        jlbl_boasVindas.setText("Seja bem vindo ao Software de empréstimo de livros.");
+        getContentPane().add(jlbl_boasVindas, new org.netbeans.lib.awtextra.AbsoluteConstraints(207, 6, -1, -1));
+
+        lbl_1.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        lbl_1.setText("Saiba como usar o sistema de forma fácil é rápida");
+        getContentPane().add(lbl_1, new org.netbeans.lib.awtextra.AbsoluteConstraints(286, 44, -1, -1));
+
+        lbl_2.setText("Passo 1: Na parte superior do sistema você verá uma barra de menu contendo as funcionalidades do sistema.");
+        getContentPane().add(lbl_2, new org.netbeans.lib.awtextra.AbsoluteConstraints(39, 101, -1, -1));
+
+        lbl_3.setText("Passo 2: Caso você queira cadastrar um funcionário, clique em Cadastrar Funcionário e em seguida preencha ");
+        getContentPane().add(lbl_3, new org.netbeans.lib.awtextra.AbsoluteConstraints(39, 135, -1, -1));
+
+        lbl_4.setText("as infomações necessarias.");
+        getContentPane().add(lbl_4, new org.netbeans.lib.awtextra.AbsoluteConstraints(39, 157, -1, -1));
+
+        lbl_5.setText("Passo 3: Caso você queria cadastrar um dependente, clique em Cadastrar Dependente e em seguida peencha ");
+        getContentPane().add(lbl_5, new org.netbeans.lib.awtextra.AbsoluteConstraints(39, 191, -1, -1));
+
+        lbl_6.setText("com as informações necessarias.");
+        getContentPane().add(lbl_6, new org.netbeans.lib.awtextra.AbsoluteConstraints(39, 213, -1, -1));
+
+        lbl_7.setText("Passo 4: Caso você queria cadastrar um livro, clique em Cadastrar Livro e em seguida peencha com as ");
+        getContentPane().add(lbl_7, new org.netbeans.lib.awtextra.AbsoluteConstraints(39, 247, -1, -1));
+
+        lbl_8.setText("informações necessarias.");
+        getContentPane().add(lbl_8, new org.netbeans.lib.awtextra.AbsoluteConstraints(39, 269, -1, -1));
+
+        lbl_9.setText("Passo 5: Caso você queria pegar emprestado um livro, clique em Emprestimo e em seguida peencha com as ");
+        getContentPane().add(lbl_9, new org.netbeans.lib.awtextra.AbsoluteConstraints(39, 303, -1, -1));
+
+        lbl_10.setText("com as informações necessarias.");
+        getContentPane().add(lbl_10, new org.netbeans.lib.awtextra.AbsoluteConstraints(39, 325, -1, -1));
+
+        lbl_11.setText("Passo 6: Caso você queria pegar devolver um livro, clique em Devolução e em seguida peencha com as ");
+        getContentPane().add(lbl_11, new org.netbeans.lib.awtextra.AbsoluteConstraints(39, 359, -1, -1));
+
+        lbl_12.setText("informações necessarias.");
+        getContentPane().add(lbl_12, new org.netbeans.lib.awtextra.AbsoluteConstraints(39, 381, -1, -1));
+
+        lbl_13.setText("Passo 7: Caso você queria apenas visualizar os cadastros feitos tanto de funcionario, dependente ou livro");
+        getContentPane().add(lbl_13, new org.netbeans.lib.awtextra.AbsoluteConstraints(39, 415, -1, -1));
+
+        lbl_14.setText("basta clicar em Visualização e escolher qual tabela você deseja ver.");
+        getContentPane().add(lbl_14, new org.netbeans.lib.awtextra.AbsoluteConstraints(39, 437, -1, -1));
+
+        jPanel1.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+
+        jLabel2.setText("- Nome Completo");
+
+        jLabel3.setText("- CPF");
+
+        jLabel4.setText("- Cargo");
+
+        jLabel5.setText("- Data de Nascimento");
+
+        jLabel6.setText("- Telefone");
+
+        jLabel7.setText("- Endereço Completo");
+
+        jLabel8.setText("- Gênero");
+
+        jLabel1.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        jLabel1.setText("Lista");
+
+        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
+        jPanel1.setLayout(jPanel1Layout);
+        jPanel1Layout.setHorizontalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(63, 63, 63)
+                        .addComponent(jLabel1))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(20, 20, 20)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel2)
+                            .addComponent(jLabel3)
+                            .addComponent(jLabel4)
+                            .addComponent(jLabel8)
+                            .addComponent(jLabel5)
+                            .addComponent(jLabel7)
+                            .addComponent(jLabel6))))
+                .addContainerGap(23, Short.MAX_VALUE))
         );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 300, Short.MAX_VALUE)
+        jPanel1Layout.setVerticalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addGap(8, 8, 8)
+                .addComponent(jLabel1)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel2)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel3)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel4)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel5)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel8)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel6)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel7)
+                .addContainerGap(11, Short.MAX_VALUE))
         );
+
+        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 110, 160, 200));
+
+        jrbtt_funcionario.setText("Informações Funcionario");
+        getContentPane().add(jrbtt_funcionario, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 320, -1, -1));
+
+        jrbtt_dependente.setText("Informações Dependentes");
+        getContentPane().add(jrbtt_dependente, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 350, -1, -1));
+
+        jrbtt_livro.setText("Informações Livros");
+        jrbtt_livro.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jrbtt_livroActionPerformed(evt);
+            }
+        });
+        getContentPane().add(jrbtt_livro, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 380, -1, -1));
+
+        jbtt_mostrar.setText("MOSTRAR");
+        getContentPane().add(jbtt_mostrar, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 410, -1, -1));
+
+        jmn_cdtr_funcionario.setText("Cadastrar Funcionario");
+        jMenuBar1.add(jmn_cdtr_funcionario);
+
+        jm_cdtr_dependente.setText("Cadastrar Dependente");
+        jMenuBar1.add(jm_cdtr_dependente);
+
+        jm_cdtr_livro.setText("Cadastrar Livro");
+        jMenuBar1.add(jm_cdtr_livro);
+
+        jm_emprestimo.setText("Empréstimo");
+        jMenuBar1.add(jm_emprestimo);
+
+        jm_devolucao.setText("Devolução");
+        jMenuBar1.add(jm_devolucao);
+
+        jm_visualizacao.setText("Visualização");
+
+        jmit_visuFuncionario.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_F, java.awt.event.InputEvent.SHIFT_DOWN_MASK | java.awt.event.InputEvent.CTRL_DOWN_MASK));
+        jmit_visuFuncionario.setText("Tabela Funcionário");
+        jmit_visuFuncionario.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jmit_visuFuncionarioActionPerformed(evt);
+            }
+        });
+        jm_visualizacao.add(jmit_visuFuncionario);
+
+        jmit_visuDependente.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_D, java.awt.event.InputEvent.SHIFT_DOWN_MASK | java.awt.event.InputEvent.CTRL_DOWN_MASK));
+        jmit_visuDependente.setText("Tabela Dependente");
+        jm_visualizacao.add(jmit_visuDependente);
+
+        jmit_visuLivro.setAccelerator(javax.swing.KeyStroke.getKeyStroke(java.awt.event.KeyEvent.VK_L, java.awt.event.InputEvent.SHIFT_DOWN_MASK | java.awt.event.InputEvent.CTRL_DOWN_MASK));
+        jmit_visuLivro.setText("Tabela Livro");
+        jm_visualizacao.add(jmit_visuLivro);
+
+        jMenuBar1.add(jm_visualizacao);
+
+        setJMenuBar(jMenuBar1);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void jmit_visuFuncionarioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jmit_visuFuncionarioActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jmit_visuFuncionarioActionPerformed
+
+    private void jrbtt_livroActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jrbtt_livroActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jrbtt_livroActionPerformed
 
     /**
      * @param args the command line arguments
@@ -77,5 +284,44 @@ public class tela_inicial extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel8;
+    private javax.swing.JMenu jMenu3;
+    private javax.swing.JMenuBar jMenuBar1;
+    private javax.swing.JPanel jPanel1;
+    private javax.swing.JButton jbtt_mostrar;
+    private javax.swing.JLabel jlbl_boasVindas;
+    private javax.swing.JMenu jm_cdtr_dependente;
+    private javax.swing.JMenu jm_cdtr_livro;
+    private javax.swing.JMenu jm_devolucao;
+    private javax.swing.JMenu jm_emprestimo;
+    private javax.swing.JMenu jm_visualizacao;
+    private javax.swing.JMenuItem jmit_visuDependente;
+    private javax.swing.JMenuItem jmit_visuFuncionario;
+    private javax.swing.JMenuItem jmit_visuLivro;
+    private javax.swing.JMenu jmn_cdtr_funcionario;
+    private javax.swing.JRadioButton jrbtt_dependente;
+    private javax.swing.JRadioButton jrbtt_funcionario;
+    private javax.swing.JRadioButton jrbtt_livro;
+    private javax.swing.JLabel lbl_1;
+    private javax.swing.JLabel lbl_10;
+    private javax.swing.JLabel lbl_11;
+    private javax.swing.JLabel lbl_12;
+    private javax.swing.JLabel lbl_13;
+    private javax.swing.JLabel lbl_14;
+    private javax.swing.JLabel lbl_2;
+    private javax.swing.JLabel lbl_3;
+    private javax.swing.JLabel lbl_4;
+    private javax.swing.JLabel lbl_5;
+    private javax.swing.JLabel lbl_6;
+    private javax.swing.JLabel lbl_7;
+    private javax.swing.JLabel lbl_8;
+    private javax.swing.JLabel lbl_9;
     // End of variables declaration//GEN-END:variables
 }
