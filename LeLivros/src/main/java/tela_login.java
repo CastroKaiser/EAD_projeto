@@ -75,10 +75,13 @@ public class tela_login extends javax.swing.JFrame {
         jbtt_entrar = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setMinimumSize(new java.awt.Dimension(1022, 590));
+        setPreferredSize(new java.awt.Dimension(922, 590));
+        setResizable(false);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jlbl_usuario.setText("Usuário:");
-        getContentPane().add(jlbl_usuario, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 280, -1, -1));
+        getContentPane().add(jlbl_usuario, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 240, -1, -1));
 
         jtxtf_usuario.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jtxtf_usuario.addActionListener(new java.awt.event.ActionListener() {
@@ -86,14 +89,14 @@ public class tela_login extends javax.swing.JFrame {
                 jtxtf_usuarioActionPerformed(evt);
             }
         });
-        getContentPane().add(jtxtf_usuario, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 300, 202, -1));
+        getContentPane().add(jtxtf_usuario, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 260, 202, -1));
 
         jLabel1.setText("Senha:");
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 330, -1, -1));
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 290, -1, -1));
 
         jLabel2.setFont(new java.awt.Font("Segoe UI", 0, 48)); // NOI18N
         jLabel2.setText("Bem Vindo ao LerLivros");
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 120, -1, -1));
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 70, -1, -1));
 
         jpwf_senha.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jpwf_senha.addActionListener(new java.awt.event.ActionListener() {
@@ -101,7 +104,7 @@ public class tela_login extends javax.swing.JFrame {
                 jpwf_senhaActionPerformed(evt);
             }
         });
-        getContentPane().add(jpwf_senha, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 350, 200, -1));
+        getContentPane().add(jpwf_senha, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 310, 200, -1));
 
         jPanel2.setBackground(new java.awt.Color(204, 204, 204));
 
@@ -130,7 +133,7 @@ public class tela_login extends javax.swing.JFrame {
                 .addGap(15, 15, 15))
         );
 
-        getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 240, 300, 210));
+        getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 200, 300, 210));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
